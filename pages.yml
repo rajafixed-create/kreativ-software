@@ -1,5 +1,6 @@
 build:
-  command: npm run build
+  command: npm ci && npm run build
+  cwd: .
   output_dir: dist
   environment:
     NODE_VERSION: 18
